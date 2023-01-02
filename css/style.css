@@ -1,0 +1,365 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.encabezado{
+    height: 60px;
+    background-color: #E15E32;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    float: left;
+}
+
+.logo img{
+    width: 50px;
+   margin-top: -10px;
+}
+
+.barra{
+    float:right
+}
+
+.encabezado ul li{
+    list-style: none; 
+    display: inline-block;
+    padding-right: 5px;
+}
+
+.encabezado ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.encabezado li a:hover{
+    color: antiquewhite;  
+}
+
+.mainIndex{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.bannerPrincipal{
+    background-image: url(/imagenes/1-banner.jpg);
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    text-align: left;
+    color: white;
+}
+
+h1{
+    font-size: 27px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top:80px;
+    margin-left: 50px;
+}
+
+.parrafoBanner{
+    width: 40%;
+    float: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 50px;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.banner2{
+    background-image: url(/imagenes/1-tercerbanner1.jpg);
+    height: 400px;
+    background-size: cover;
+    text-align: right;
+    color: white;
+    background-position: top;
+}
+
+.titulo2{
+    font-size: 27px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top:10%;
+    margin-right: 40px;
+}
+
+.parrafo2{
+    float: right;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-right: 40px;
+    font-size: 14px;
+    margin-top: 10px;
+    width: 40%;
+}
+
+.banner3{
+    background-image: url(/imagenes/1-cuartobanner1.jpg);
+    height: 400px;
+    background-size: cover;
+    text-align: left;
+    color: white;
+    background-position: center;
+}
+
+.titulo3{
+    font-size: 27px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top:10%;
+    margin-left: 40px;
+}
+
+.parrafo3{
+    float: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 40px;
+    font-size: 14px;
+    margin-top: 10px;
+    width: 40%;
+}
+
+.banner4{
+    background-image: url(/imagenes/1-cachorro.jpg);
+    height: 400px;
+    background-size: cover;
+    text-align: right;
+    color: white;
+    background-position: center;
+}
+
+.titulo4{
+    font-size: 27px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-right: 40px;
+    padding-top:10% ;
+}
+
+.parrafo4{
+    float: right;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-right: 40px;
+    font-size: 14px;
+    margin-top: 10px;
+    width: 40%;
+}
+
+footer{
+    background-color:#E15E32;
+    padding: 15px;
+    padding-bottom: 15px;
+    height: 120px;
+    color: white;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.tituloFooter{
+    font-size: 20px;
+}
+
+.redesSociales{
+    font-size: 25px;
+    display: inline-block;
+    word-spacing: 40px;
+    padding: 5px;
+}
+
+.redesSociales a {
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+
+.parrafoFooter{
+    font-size: 14px;
+}
+
+.bannerPlanes{
+    background-image: url(/imagenes/2-bannerplanes.jpg);
+    height: 400px;
+    background-size: cover;
+    background-position: right;
+    text-align: left;
+    color: white;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.tituloPlanes{
+    text-align: center;
+    font-size: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.parrafoPlanes{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    margin-top: 0px;
+
+}
+
+.planes{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 5%;
+    margin-right: auto;
+    margin-left: auto;  
+    background-image: url(/imagenes/Black_Animal_Paw_Pattern_generated.jpg.png);
+}
+
+.plan1{
+    background-color: #E15E32;
+    padding: 50px;
+    height: 550px;
+    width: 300px;
+    margin-bottom: 5%;
+}
+
+.plan2{
+    background-color: #E15E32;
+    padding: 50px;
+    height: 550px;
+    width: 300px;
+    margin-bottom: 5%;
+}
+
+.plan3{
+    background-color: #E15E32;
+    padding: 50px;
+    height: 550px;
+    width: 300px;
+    margin-bottom: 5%;
+}
+
+.imagenPlan{
+    height: 100px;
+    display: block;
+    margin: auto;
+    margin-top: 7%;
+    border-radius: 50%;
+    border: 5px solid #fff;
+}
+
+.plan{
+    text-align: center;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 40px;
+    border-radius: 2%;
+}
+.parrafoPlan{
+    padding-top: 20px;
+    font-size: 15px;
+}
+
+.precio{
+    font-size: 50px;
+    padding-bottom: 40px;
+    color: bisque;
+}
+
+@media only screen and (min-width:320px) and (max-width:479px) {
+    
+    h1{
+        font-size: 24px;
+        text-align: center;
+        margin-left: 0%;
+        padding-top: 20%px;
+    }
+
+    .parrafoBanner{
+        font-size: 12px;
+        text-align: center;
+        margin-left: 0%;
+    }
+    .bannerPrincipal{
+        background-position: right;
+    }
+
+    .parrafoFooter{
+        padding-bottom: 20px;
+    }
+    
+    .tituloFooter{
+    font-size:16px;
+    }
+
+    footer{
+    padding: 7%;
+    height: 160px;
+    }
+    
+    .tituloPlanes{
+        font-size: 30px;
+        padding-top: 17%;
+    }
+
+    .parrafoPlanes{
+        padding-top: 5%;
+    }
+
+    .banner2{
+    background-position: left;
+    }
+
+    .bannerPlanes{
+        background-image: url(/imagenes/1-cachorro.jpg);
+        background-position: center;
+    }
+}
+
+@media only screen and (min-width:320px) and (max-width:539px){
+    .tituloprincipal{
+        text-align: center;
+        float: none;
+        width: 100%;
+        margin-left: 0%;
+        margin-right: 0%;
+        padding-top: 30%;
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+    .parrafoprincipal{
+        text-align: center;
+        float: none;
+        font-size: 12px;
+        width: 100%;
+        margin-left: 0%;
+        margin-right: 0%;
+        padding-left: 15%;
+        padding-right: 15%;
+    } 
+}
+@media only screen and (min-width:320px) and (max-width:550px){
+
+}
+@media only screen and (min-width:400px) and (max-width:539px){
+    .titulobanner{
+        padding-top: 25%;
+    }
+    }
+
+    @media only screen and (min-width:320px) and (max-width:343x){
+        .tituloPlanes{
+            padding-top: 0%;
+        }
+        .parrafoPlanes{
+            padding-top: 0;
+            font-size: 12px;
+        }
+        }
